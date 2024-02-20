@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /lib/firmware/brcm/
+# cd /lib/firmware/brcm/
 
 
 wget -O /lib/firmware/brcm/brcmfmac43430-sdio.bin https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.bin
