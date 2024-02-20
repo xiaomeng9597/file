@@ -11,6 +11,6 @@ wget -O /lib/firmware/brcm/brcmfmac43430-sdio.panther,x2.txt https://xiaomeng959
 
 chmod 777 /lib/firmware/brcm/
 
-echo "WiFi驱动包已下载到指定目录完毕正在重启中……"
+echo "WiFi驱动包已下载到指定目录完毕正在重启系统中……"
 
 reboot
