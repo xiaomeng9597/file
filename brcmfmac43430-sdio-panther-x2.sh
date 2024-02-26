@@ -5,6 +5,8 @@
 
 wget -O /lib/firmware/brcm/brcmfmac43430-sdio.bin https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.bin
 wget -O /lib/firmware/brcm/brcmfmac43430-sdio.panther,x2.bin https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.bin
+wget -O /lib/firmware/brcm/brcmfmac43430-sdio.clm_blob https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.clm_blob
+wget -O /lib/firmware/brcm/brcmfmac43430-sdio.panther,x2.clm_blob https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.clm_blob
 wget -O /lib/firmware/brcm/brcmfmac43430-sdio.txt https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.txt
 wget -O /lib/firmware/brcm/brcmfmac43430-sdio.panther,x2.txt https://xiaomeng9597.github.io/files/wifi/brcmfmac43430-sdio.txt
 
