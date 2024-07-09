@@ -34,6 +34,7 @@ jobs:
         if [ -n "$version" ] && [ -n "$source_url" ]; then
           wget --connect-timeout=1800 --read-timeout=1800 "$source_url/linkease-binary-$version.tar.gz" -O "linkease-binary-$version.tar.gz"
         fi
+        ls
 
     - name: 自动发布固件到 Releases
       uses: softprops/action-gh-release@v2
@@ -41,7 +42,7 @@ jobs:
         tag_name: "iStoreosFile"
         name: "iStoreosFile"
         body: "iStoreosFile"
-        files: /mnt/xiaomeng9597/files/linkease-binary-$version.tar.gz
+        files: /mnt/xiaomeng9597/files/*
 
     - name: 删除运行记录
       uses: xiaomeng9597/delete-workflow-runs@main
