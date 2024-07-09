@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 工作目录
 sudo mkdir -p /mnt/xiaomeng9597/files
 sudo chown "$USER:$GROUPS" /mnt/xiaomeng9597/files
 cd /mnt/xiaomeng9597/files
