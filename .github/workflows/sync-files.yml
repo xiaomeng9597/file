@@ -15,8 +15,8 @@ jobs:
 
     - name: 下载压缩包
       run: |
-        chmod +x $GITHUB_WORKSPACE/scripts/*.sh
-        $GITHUB_WORKSPACE/scripts/sync-istoreos-files.sh
+        chmod +x $GITHUB_WORKSPACE/diy-scripts/*.sh
+        $GITHUB_WORKSPACE/diy-scripts/sync-istoreos-files.sh
 
     - name: 自动发布资源到 Releases
       uses: softprops/action-gh-release@v2
